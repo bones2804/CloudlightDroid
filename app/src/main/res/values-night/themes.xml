@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark theme application theme -->
+    <style name="Theme.CloudLightController" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/purple_80</item>
+        <item name="colorPrimaryDark">@color/purple_grey_80</item>
+        <item name="colorAccent">@color/purple_80</item>
+        
+        <!-- Background colors - darker in night mode -->
+        <item name="android:colorBackground">@color/dark_background</item>
+        
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">@color/dark_surface</item>
+    </style>
+    
+    <!-- Component-specific styles -->
+    <style name="Widget.App.CardView" parent="@style/Widget.MaterialComponents.CardView">
+        <item name="cardElevation">2dp</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardBackgroundColor">@color/dark_card_background</item>
+    </style>
+    
+    <style name="Widget.App.BottomNavigation" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">@color/dark_surface</item>
+    </style>
+    
+    <!-- Text appearance styles -->
+    <style name="TextAppearance.App.HeadlineMedium" parent="TextAppearance.AppCompat.Headline">
+        <item name="android:textSize">28sp</item>
+        <item name="android:fontWeight">600</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    
+    <style name="TextAppearance.App.TitleMedium" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontWeight">500</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources> 

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme (Light theme) -->
+    <style name="Theme.CloudLightController" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/purple_40</item>
+        <item name="colorPrimaryDark">@color/purple_grey_40</item>
+        <item name="colorAccent">@color/purple_40</item>
+        
+        <!-- Background colors -->
+        <item name="android:colorBackground">@color/cloud_background</item>
+        
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">@color/purple_grey_40</item>
+    </style>
+    
+    <!-- Component-specific styles -->
+    <style name="Widget.App.CardView" parent="@style/Widget.MaterialComponents.CardView">
+        <item name="cardElevation">2dp</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardBackgroundColor">@color/card_background</item>
+    </style>
+    
+    <style name="Widget.App.BottomNavigation" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">@color/white</item>
+    </style>
+    
+    <!-- Text appearance styles -->
+    <style name="TextAppearance.App.HeadlineMedium" parent="TextAppearance.AppCompat.Headline">
+        <item name="android:textSize">28sp</item>
+        <item name="android:fontWeight">600</item>
+    </style>
+    
+    <style name="TextAppearance.App.TitleMedium" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontWeight">500</item>
+    </style>
+</resources> 
